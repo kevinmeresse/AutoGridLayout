@@ -3,6 +3,19 @@ A custom implementation of GridLayout to allow having a dynamic span count, so t
 
 ### Usage
 
+Add a custom attribute for the AutoGridLayout, in res/values/attrs.xml (create the file if it does not exist already):
+
+~~~xml
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ... -->
+
+    <declare-styleable name="AutoGridLayout">
+        <attr name="columnWidth" format="dimension" />
+    </declare-styleable>
+</resources>
+~~~
+
 In your XML layout file:
 
 ~~~xml
