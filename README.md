@@ -16,7 +16,7 @@ Add a custom attribute for the AutoGridLayout, in res/values/attrs.xml (create t
 </resources>
 ~~~
 
-In your XML layout file:
+In your XML layout file (replace `com.km.myproject.customview` with your own package name):
 
 ~~~xml
 <?xml version="1.0" encoding="utf-8"?>
