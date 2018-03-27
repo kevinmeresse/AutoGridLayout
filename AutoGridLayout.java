@@ -10,8 +10,10 @@ import com.km.myproject.R;
 /**
  * A custom implementation of the standard GridLayout to allow having a dynamic span count,
  * so that we can fit as many columns as we can depending on column width and screen size
+ *
+ * @author Kevin Meresse
+ * @since 6/27/2017.
  */
-
 public class AutoGridLayout extends GridLayout {
 
     private int defaultColumnCount;
